@@ -1,0 +1,360 @@
+html{
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.header1Css{
+    box-sizing: border-box;
+    height: 3rem;
+    width: 94rem;
+    background-color: cadetblue;
+    display: flex;
+    gap: 1rem;
+    color: white;
+    padding: 3px;
+}
+
+.logo{
+    height: 150px;
+    width: 94rem;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap:wrap ;
+    margin-top: -1rem;
+    
+    
+}
+.logo img {
+    height: 140px;
+    width: 140px;
+    border-radius: 150px;
+}
+.logo p {
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-top: 3rem;
+    margin-left: 2rem;
+}
+.bookwordname{
+    display: flex;
+}
+
+
+.searchInput {
+    width: 45rem;
+    height: 2.5rem;
+    margin-top: 3rem;
+    margin-left: 15rem;
+    border-radius: 2rem;
+    
+}
+
+.searchImg{
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-top: 3rem; 
+}
+.cardImg{
+    width: 2rem;
+    height: 2rem;
+    margin-top: 3rem; 
+    margin-left: 1rem;
+}
+.heartImg{
+    width: 2rem;
+    height: 2rem;
+    margin-top: 3rem; 
+    margin-left: 1rem;
+}
+
+.searchImg:hover{
+    width: 3rem;
+    height: 3rem;
+    margin-top: 3rem;
+}
+.cardImg:hover{
+    width: 3rem;
+    height: 3rem;
+    margin-top: 3rem;
+}
+.heartImg:hover{
+    width: 3rem;
+    height: 3rem;
+    margin-top: 3rem;
+}
+.headerCss{
+    margin-top: -1.5rem;
+    box-sizing: border-box;
+    height: 3rem;
+    width: 94rem;
+    background-color: antiquewhite;
+    border-radius: 1rem;
+    align-items: right;
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 2rem;
+    justify-items: right;
+    text-decoration: none;
+    padding: 2px;
+
+}
+
+.headerCss a {
+    color:blue;
+    text-decoration: none;
+    align-items: right;
+    text-align: right;
+    margin: 0 100px;
+    padding: 8px 5px;
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    font-weight: bold;
+    
+}
+.headerCss select{
+    color: blue;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: antiquewhite;
+
+}
+
+.headerCss img{
+    border-radius: 10px;
+    
+}
+.headerCss a:hover{
+    color: brown;
+}
+
+
+.footers{
+    height: 5rem;
+    width: 94rem;
+    
+
+}
+.footers img{
+    height: inherit;
+    width: inherit;
+}
+.subcribecontact{
+    background-color: azure;
+    width: 94rem;
+    height: inherit;
+
+}
+.footerSub{
+    height: 15rem;
+    width: 94rem;
+    
+}
+.footerSub h3{
+    font-size: 26px;
+    margin-top : 5px;
+    margin-left: 3rem;
+}
+.footerSub p{
+    font-size: 18px;
+    margin-top: -2rem;
+    margin-left: 3rem;
+}
+
+
+.emails{
+    height: 2rem;
+    width: 20rem;
+    border-radius: 2rem;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 3rem;
+
+}
+.submit{
+    height: 2rem;
+    width: 6rem;
+    border-radius: 0 1rem;
+    text-align: center;
+    color:whitesmoke;
+    background-color: blue;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+.contactInfo{
+   margin-left: 80rem;
+   margin-top: -14rem;
+   
+}
+.bestsellingbook{
+    height: 30rem;
+    width: 94rem;
+    background-color: rgb(139, 167, 183);
+
+}
+.bestsellingbook p {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    box-sizing: border-box;
+
+}
+.bestSelling p{
+    font-size: 26px;
+    margin-top: 1rem;
+    
+    
+}
+.bestSell{
+    display: flex;
+   
+   
+    
+}
+.book1 ,.book2 ,.book3 , .book4, .book5{
+    margin: 2rem;
+    height: 20rem;
+    width: 15rem;
+   
+}
+.book1 img, .book2 img, .book3 img, .book4 img, .book5 img{
+    height: 20rem;
+    width: 15rem;
+    border-radius: 1rem;
+    margin-top: -2rem;
+}
+.book1 p , .book2 p , .book3 p, .book4 p, .book5 p {
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(11, 11, 112);
+}
+.news{
+    display: flex;
+}
+.new1 ,.new2,.new3,.new4,.new5, .new6,.new7{
+    margin: 2rem;
+    height: 15rem;
+    width: 10rem;
+}
+.new1 img,.new2 img, .new3 img, .new4 img, .new5 img, .new6 img, .new7 img{
+    height: 15rem;
+    width: 9rem;
+    border-radius: 1rem;
+    margin-top: -2rem;
+}
+.new1 p,.new2 p, .new3 p, .new4 p, .new5 p, .new6 p, .new7 p{
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(11, 11, 112);
+}
+.newarrivals{
+    height: 30rem;
+    width: 94rem;
+    background-color: rgb(139, 167, 183);
+}
+
+.newarrivals p{
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.headerCss select{
+    border: none;
+}
+
+.followup{
+    box-sizing: border-box;
+    height: 6rem;
+    width: 94rem;
+    background-color: burlywood;
+    padding-left: 2rem;
+    
+}
+.footerLogo{
+
+}
+.footerLogo img{
+    height: 5rem;
+    width: 8rem;
+    border-radius: 10rem;
+    margin-top: -1rem;
+    margin-left: 45rem;
+}
+
+.followImg{
+
+}
+.followImg input{
+    margin-top: -4rem;
+    margin-bottom: 0.5rem;
+    
+}
+.acceptedImg img{
+    height: 3rem;
+    width: 7rem;
+    margin-top: -4rem;
+    margin-bottom: 3rem;
+    margin-left: 80rem;
+}
+
+.fictionItems{
+    height: 45rem;
+    width: 94rem;
+    background-color: rgb(139, 167, 183);
+    display: flex;
+    
+}
+
+.fictionItems input{
+    height: 15rem;
+    width: 9rem;
+    margin: 2rem;
+    border-radius: 2rem;
+}
+.fictionItems input:hover{
+    height: 16rem;
+    width: 10rem;
+    margin: 0.5rem;
+    
+}
+.fictionItems p{
+    font-size: 26px;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+}
+
+.nonfiction{
+    height: 45rem;
+    width: 94rem;
+    background-color: rgb(139, 167, 183);
+    display: flex;
+}
+.nonfictionItems{
+    display: flex;
+}
+.nonfictionimg input{
+    height: 15rem;
+    width: 9rem;
+    margin: 2rem;
+    border-radius: 2rem;
+}
+.nonfictionimgItems input:hover{
+    height: 16rem;
+    width: 10rem;
+    margin: 0.5;
+}
+
